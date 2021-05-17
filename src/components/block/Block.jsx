@@ -4,7 +4,7 @@ import { Alert } from '@material-ui/lab';
 import { Trans } from '@lingui/macro';
 import { useParams, useHistory } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { Card, Link, Loading, TooltipIcon, Flex, CurrencyCode } from '@chia/core';
+import { Card, Link, Loading, TooltipIcon, Flex } from '@chia/core';
 import {
   unix_to_short_date,
   hex_to_array,

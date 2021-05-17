@@ -56,6 +56,7 @@ msgstr "Działanie"
 #: src/components/farm/FarmFullNodeConnections.tsx:43
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:43
 #: src/components/fullNode/FullNodeConnections.tsx:57
+#: src/components/pool/PoolOverview.tsx:35
 msgid "Actions"
 msgstr "Działania"
 
@@ -63,7 +64,7 @@ msgstr "Działania"
 msgid "Add"
 msgstr "Dodaj"
 
-#: src/components/plot/PlotHeader.tsx:51
+#: src/components/plot/PlotHeader.tsx:54
 msgid "Add Plot Directory"
 msgstr "Dodaj folder z grządkami"
 
@@ -75,8 +76,12 @@ msgstr "Dodaj działkę do kolejki"
 msgid "Add Wallet"
 msgstr "Dodaj portfel"
 
+#: src/components/pool/add/PoolAdd.tsx:52
+msgid "Add a Group"
+msgstr ""
+
 #: src/components/farm/overview/FarmOverviewHero.tsx:35
-#: src/components/plot/PlotHeader.tsx:33
+#: src/components/plot/PlotHeader.tsx:36
 #: src/components/plot/add/PlotAdd.tsx:55
 #: src/components/plot/overview/PlotOverviewHero.tsx:29
 msgid "Add a Plot"
@@ -136,6 +141,7 @@ msgstr "Czy na pewno? Tworzenie i farming działek zostaną zatrzymane."
 #~ msgstr "Are you sure you want to use k={plotSize}"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:31
+#: src/components/pool/add/PoolAddCreate.tsx:31
 msgid "Are you sure you want to use k={plotSize}?"
 msgstr "Czy na pewno chcesz użyć k={plotSize}?"
 
@@ -263,6 +269,15 @@ msgstr "Wyzwanie"
 msgid "Challenge Hash"
 msgstr "Hash wyzwania"
 
+#: src/components/pool/PoolCard.tsx:104
+#: src/components/pool/PoolOverview.tsx:57
+msgid "Change Pool"
+msgstr ""
+
+#: src/components/pool/PoolCard.tsx:119
+#~ msgid "Change Pool (or change to self-pooling)"
+#~ msgstr ""
+
 #: src/electron/main.tsx:345
 msgid "Chat on KeyBase"
 msgstr "Czat na KeyBase"
@@ -286,6 +301,11 @@ msgstr "Wybierz liczbę działek"
 #: src/components/plot/add/PlotAddChooseSize.tsx:54
 msgid "Choose Plot Size"
 msgstr "Wybierz rozmiar działki"
+
+#: src/components/pool/PoolCard.tsx:93
+#: src/components/pool/PoolOverview.tsx:45
+msgid "Claim Rewards"
+msgstr ""
 
 #: src/components/plot/PlotAddDirectoryDialog.tsx:76
 #: src/components/plot/queue/PlotQueueLogDialog.tsx:55
@@ -326,6 +346,7 @@ msgid "Coloured Coin Options"
 msgstr "Opcje pokolorowanej monety"
 
 #: src/electron/main.tsx:162
+#: src/hooks/usePoolClaimRewards.tsx:38
 msgid "Confirm"
 msgstr "Potwierdź"
 
@@ -349,6 +370,10 @@ msgstr "Połącz"
 #: src/components/fullNode/FullNodeConnections.tsx:75
 msgid "Connect to other peers"
 msgstr "Połącz się z innymi peerami"
+
+#: src/components/pool/add/PoolAddCreate.tsx:71
+msgid "Connect to pool"
+msgstr ""
 
 #: src/components/core/components/FormatConnectionStatus/FormatConnectionStatus.tsx:47
 #: src/components/fullNode/FullNode.jsx:143
@@ -397,6 +422,7 @@ msgid "Copy to Clipboard"
 msgstr "Skopiuj do schowka"
 
 #: src/components/backup/BackupCreate.tsx:70
+#: src/components/pool/add/PoolAdd.tsx:69
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -481,6 +507,10 @@ msgstr "Stworzone przez nas:"
 #: src/components/trading/TradingOverview.jsx:184
 msgid "Current trade status"
 msgstr "Aktualny status handlu"
+
+#: src/components/pool/PoolStatus.tsx:13
+#~ msgid "Currently Pooling with {poolName} ({poolUrl})"
+#~ msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:98
 msgid "DANGER: permanently delete private key"
@@ -752,6 +782,10 @@ msgstr "Pełny ekran"
 msgid "Generate New Colour"
 msgstr "Wygeneruj nowy kolor"
 
+#: src/components/pool/PoolOverview.tsx:105
+msgid "Grid view"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:369
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD lub Hierarchiczne klucze Deterministyczne to rodzaj systemu klucza publicznego/kluczy prywatnych, w którym jeden klucz prywatny może mieć prawie nieskończoną liczbę różnych kluczy publicznych (i adresów odbierających portfela), które ostatecznie powrócą do jednego klucza prywatnego i będą mogły zostać wydane przez jeden klucz prywatny."
@@ -852,11 +886,24 @@ msgstr "Zainicjuj limitowany portfel użytkownika:"
 msgid "Interval"
 msgstr "Interwał"
 
+#: src/components/pool/PoolCard.tsx:103
+#: src/components/pool/PoolOverview.tsx:56
+msgid "Join Pool"
+msgstr ""
+
+#: src/components/pool/PoolHero.tsx:26
+msgid "Join a Pool"
+msgstr ""
+
+#: src/components/pool/add/PoolAddCreate.tsx:56
+msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:37
 msgid "K-Size"
 msgstr "K-rozmiar"
 
-#: src/components/dashboard/DashboardSideBar.tsx:27
+#: src/components/dashboard/DashboardSideBar.tsx:28
 msgid "Keys"
 msgstr "Klucze"
 
@@ -877,11 +924,15 @@ msgstr "Ostatnia wyfarmiona wysokość"
 msgid "Latest Block Challenges"
 msgstr "Ostatnie wyzwania blokowe"
 
+#: src/components/pool/PoolOverview.tsx:105
+msgid "List view"
+msgstr ""
+
 #: src/components/plot/queue/PlotQueueLogDialog.tsx:22
 msgid "Loading..."
 msgstr "Wczytywanie..."
 
-#: src/components/plot/overview/PlotOverviewPlots.tsx:80
+#: src/components/plot/overview/PlotOverviewPlots.tsx:81
 msgid "Local Harvester Plots"
 msgstr "Twoje działki"
 
@@ -1084,6 +1135,7 @@ msgstr "Wysokość szczytowa"
 msgid "Peak Time"
 msgstr "Czas szczytu"
 
+#: src/components/pool/PoolStatus.tsx:10
 #: src/components/wallet/WalletHistory.tsx:42
 msgid "Pending"
 msgstr "Oczekujące"
@@ -1102,6 +1154,14 @@ msgstr "Oczekujące saldo"
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "Pending Total Balance"
 msgstr "Oczekujące saldo"
+
+#: src/components/pool/PoolStatus.tsx:9
+#~ msgid "Pending unconfirmed tx"
+#~ msgstr ""
+
+#: src/hooks/usePoolClaimRewards.tsx:38
+msgid "Please Confirm"
+msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:109
 msgid "Please add a trade pair"
@@ -1172,6 +1232,11 @@ msgstr "Proszę podać folder docelowy"
 msgid "Please specify temporary directory"
 msgstr "Proszę podać folder tymczasowy"
 
+#: src/hooks/usePoolClaimRewards.tsx:24
+#: src/hooks/usePoolJoin.tsx:26
+msgid "Please wait for synchronization"
+msgstr ""
+
 #: src/components/plot/Plot.tsx:13
 msgid "Plot"
 msgstr "Działka"
@@ -1202,6 +1267,7 @@ msgstr "Klucz publiczny działki"
 #~ msgstr ""
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:66
+#: src/components/pool/add/PoolAddCreate.tsx:74
 msgid "Plot Size"
 msgstr "Rozmiar działki"
 
@@ -1241,9 +1307,18 @@ msgstr "Generowanie pól bitowo zmniejsza o 30% zapis i jest prawie zawsze szybs
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
+#: src/components/dashboard/DashboardSideBar.tsx:27
+#: src/components/pool/Pool.tsx:16
+msgid "Pool"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:55
 msgid "Pool Key"
 msgstr "Klucz farmera"
+
+#: src/components/pool/PoolOverview.tsx:20
+msgid "Pool Name: URL"
+msgstr ""
 
 #: src/components/block/Block.jsx:248
 msgid "Pool Public Key"
@@ -1260,6 +1335,28 @@ msgstr "Adres nagród z puli"
 #: src/components/block/Block.jsx:286
 msgid "Pool Reward Amount"
 msgstr "Kwota nagród z puli"
+
+#: src/components/pool/PoolCard.tsx:79
+#: src/components/pool/PoolOverview.tsx:28
+msgid "Pool Status"
+msgstr ""
+
+#: src/components/pool/PoolStatus.tsx:13
+#~ msgid "Pool Status Currently Pooling with {poolName} (http://poollab.com)"
+#~ msgstr ""
+
+#: src/components/pool/PoolStatus.tsx:13
+#~ msgid "Pool Status Currently Pooling with {poolName} ({poolUrl})"
+#~ msgstr ""
+
+#: src/components/pool/PoolCard.tsx:63
+#: src/components/pool/PoolOverview.tsx:32
+msgid "Pool Winnings"
+msgstr ""
+
+#: src/components/pool/PoolStatus.tsx:18
+msgid "Pooling"
+msgstr ""
 
 #: src/components/farm/FarmFullNodeConnections.tsx:30
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:30
@@ -1366,7 +1463,7 @@ msgstr "Adres odbioru"
 msgid "Recover DID wallet"
 msgstr "Odzyskaj portfel DID"
 
-#: src/components/plot/PlotHeader.tsx:43
+#: src/components/plot/PlotHeader.tsx:46
 msgid "Refresh Plots"
 msgstr "Odśwież działki"
 
@@ -1466,6 +1563,14 @@ msgstr "Wybierz lokalizację tymczasowego folderu gdzie chciałbyś/chciałabyś
 msgid "Selected"
 msgstr "Wybrano"
 
+#: src/components/pool/PoolStatus.tsx:18
+msgid "Self Pooling"
+msgstr ""
+
+#: src/components/pool/add/PoolAddCreate.tsx:69
+msgid "Self pool. When you win a block you will earn XCH rewards."
+msgstr ""
+
 #: src/components/trading/CreateOffer.jsx:182
 #: src/components/trading/TradesTable.tsx:30
 #: src/components/trading/TradingOverview.jsx:295
@@ -1514,6 +1619,10 @@ msgstr "Zaloguj się"
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:129
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Pomija dodawanie docelowego folderu do żniwiarza"
+
+#: src/components/pool/PoolHero.tsx:21
+msgid "Smooth out your XCH farming rewards by joining a pool."
+msgstr ""
 
 #: src/electron/main.tsx:409
 msgid "Speech"
@@ -1600,6 +1709,7 @@ msgid "Submit"
 msgstr "Zatwierdź"
 
 #: src/components/fullNode/FullNode.jsx:130
+#: src/components/pool/PoolWalletStatus.tsx:12
 msgid "Synced"
 msgstr "Zsynchronizowano"
 
@@ -1612,6 +1722,10 @@ msgstr "Synchronizowanie"
 #: src/components/fullNode/FullNode.jsx:106
 msgid "Syncing {progress}/{tip}"
 msgstr "Synchronizowanie {progress}/{tip}"
+
+#: src/components/pool/PoolWalletStatus.tsx:11
+msgid "Syncing. Height: {walletSyncingHeight}"
+msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
 #~ msgid "TXCH Block Rewards"
@@ -1651,6 +1765,8 @@ msgstr "Poniżej pełen węzeł do którego jest podłączony twój rolnik. <0>D
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
+#: src/components/pool/add/PoolAddCreate.tsx:30
+#: src/components/pool/add/PoolAddCreate.tsx:82
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Najmniejszy dopuszczalny rozmiar w mainnecie to k=32"
 
@@ -1778,9 +1894,17 @@ msgstr "Wszystkie powtórzenia"
 msgid "Total Network Space"
 msgstr "Całkowita przestrzeń sieci"
 
-#: src/components/plot/overview/PlotOverviewPlots.tsx:91
+#: src/components/plot/overview/PlotOverviewPlots.tsx:95
 msgid "Total Plot Size:"
 msgstr "Całkowity rozmiar działki:"
+
+#: src/components/pool/PoolOverview.tsx:112
+msgid "Total Pool Winnings"
+msgstr ""
+
+#: src/components/pool/PoolOverview.tsx:25
+#~ msgid "Total Pool Winnings:"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:8
 msgid "Total Size of Plots"
@@ -1833,6 +1957,10 @@ msgstr "Hash filtra transakcji"
 #: src/components/wallet/WalletHistory.tsx:22
 msgid "Type"
 msgstr "Typ"
+
+#: src/components/pool/PoolStatus.tsx:13
+msgid "Unconfirmed transaction"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Unfinished"
@@ -1892,6 +2020,15 @@ msgstr "Oczekiwanie na synchronizację"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
+#: src/components/pool/add/PoolAdd.tsx:60
+msgid "Waiting on transaction to hit the memory pool..."
+msgstr ""
+
+#: src/components/pool/PoolCard.tsx:71
+#: src/components/pool/PoolOverview.tsx:24
+msgid "Wallet Status"
+msgstr ""
+
 #: src/components/wallet/Wallets.tsx:34
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
@@ -1929,7 +2066,11 @@ msgstr "Portfele"
 #~ msgid "Wallets.title"
 #~ msgstr ""
 
-#: src/components/plot/overview/PlotOverviewPlots.tsx:84
+#: src/components/pool/add/PoolAddCreate.tsx:54
+msgid "Want to Join a Pool? Create a Group"
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:88
 msgid "Want to earn more Chia? Add more plots to your farm."
 msgstr "Chcesz zarabiać więcej Chia? Dodaj więcej działek do swojej farmy."
 
@@ -1966,10 +2107,20 @@ msgid "Without fees"
 msgstr "Bez opłat"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
+#: src/components/pool/add/PoolAddCreate.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
 #: src/electron/main.tsx:160
 msgid "Yes"
 msgstr "Tak"
+
+#: src/hooks/usePoolClaimRewards.tsx:32
+#: src/hooks/usePoolJoin.tsx:34
+msgid "You are not pooling"
+msgstr ""
+
+#: src/components/pool/PoolCard.tsx:115
+msgid "You can still create plots for this pool group, but you can not make changes until sync is complete."
+msgstr ""
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:56
 #~ msgid "You do not need to be synched or connected to Plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
@@ -1999,6 +2150,18 @@ msgstr "Masz {0}% miejsca w sieci, więc rolnictwo bloku zajmie {expectedTimeToW
 #~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
 #~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
 
+#: src/hooks/usePoolClaimRewards.tsx:39
+msgid "You will recieve <0/> to {address}"
+msgstr ""
+
+#: src/components/pool/PoolCard.tsx:49
+#~ msgid "You will recieve {balance} XCH to {address}"
+#~ msgstr ""
+
+#: src/hooks/usePoolClaimRewards.tsx:39
+#~ msgid "You will recieve\"<0/>\"to {address}"
+#~ msgstr ""
+
 #: src/components/farm/overview/FarmOverview.tsx:24
 msgid "Your Farm Overview"
 msgstr "Podsumowanie twojej farmy"
@@ -2010,6 +2173,10 @@ msgstr "Twoje połączenie pełnego węzła"
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:56
 msgid "Your Harvester Network"
 msgstr "Twoja sieć Żniwiarza"
+
+#: src/components/pool/PoolOverview.tsx:91
+msgid "Your Pool Overview"
+msgstr ""
 
 #: src/util/getDescriptiveError.ts:4
 msgid "[Error 13] Permission denied. You are trying to access a file/directory without having the necessary permissions. Most likely one of the plot folders in your config.yaml has an issue."
