@@ -76,7 +76,7 @@ msgstr "Plot zur Warteschlange hinzufügen"
 msgid "Add Wallet"
 msgstr "Wallet hinzufügen"
 
-#: src/components/pool/add/PoolAdd.tsx:52
+#: src/components/group/add/GroupAdd.tsx:52
 msgid "Add a Group"
 msgstr ""
 
@@ -141,7 +141,6 @@ msgstr "Bist du sicher, dass du beenden willst? GUI Plotting und farming werden 
 #~ msgstr "Are you sure you want to use k={plotSize}"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:31
-#: src/components/pool/add/PoolAddCreate.tsx:31
 msgid "Are you sure you want to use k={plotSize}?"
 msgstr "Bist du sicher, dass du k={plotSize} nutzen möchtest?"
 
@@ -269,7 +268,7 @@ msgstr "Herausforderung"
 msgid "Challenge Hash"
 msgstr "Herausforderungs Hash"
 
-#: src/components/pool/PoolCard.tsx:104
+#: src/components/group/GroupCard.tsx:104
 #: src/components/pool/PoolOverview.tsx:57
 msgid "Change Pool"
 msgstr ""
@@ -302,7 +301,7 @@ msgstr "Anzahl der Plots wählen"
 msgid "Choose Plot Size"
 msgstr "Wähle Plot Größe"
 
-#: src/components/pool/PoolCard.tsx:93
+#: src/components/group/GroupCard.tsx:93
 #: src/components/pool/PoolOverview.tsx:45
 msgid "Claim Rewards"
 msgstr ""
@@ -346,7 +345,7 @@ msgid "Coloured Coin Options"
 msgstr "Optionen für farbigen Coin"
 
 #: src/electron/main.tsx:162
-#: src/hooks/usePoolClaimRewards.tsx:38
+#: src/hooks/useGroupClaimRewards.tsx:34
 msgid "Confirm"
 msgstr "Bestätigen"
 
@@ -371,7 +370,7 @@ msgstr "Verbinden"
 msgid "Connect to other peers"
 msgstr "Mit anderen Peers verbinden"
 
-#: src/components/pool/add/PoolAddCreate.tsx:71
+#: src/components/group/add/GroupAddCreate.tsx:36
 msgid "Connect to pool"
 msgstr ""
 
@@ -422,7 +421,7 @@ msgid "Copy to Clipboard"
 msgstr "In die Zwischenablage kopieren"
 
 #: src/components/backup/BackupCreate.tsx:70
-#: src/components/pool/add/PoolAdd.tsx:69
+#: src/components/group/add/GroupAdd.tsx:69
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -892,7 +891,7 @@ msgstr "Initialisiere ein beschränktes Benutzer-Wallet:"
 msgid "Interval"
 msgstr "Intervall"
 
-#: src/components/pool/PoolCard.tsx:103
+#: src/components/group/GroupCard.tsx:103
 #: src/components/pool/PoolOverview.tsx:56
 msgid "Join Pool"
 msgstr ""
@@ -901,7 +900,7 @@ msgstr ""
 msgid "Join a Pool"
 msgstr ""
 
-#: src/components/pool/add/PoolAddCreate.tsx:56
+#: src/components/group/add/GroupAddCreate.tsx:21
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
 msgstr ""
 
@@ -1141,7 +1140,7 @@ msgstr "Spitzenhöhe"
 msgid "Peak Time"
 msgstr "Spitzenzeit"
 
-#: src/components/pool/PoolStatus.tsx:10
+#: src/components/group/GroupStatus.tsx:10
 #: src/components/wallet/WalletHistory.tsx:42
 msgid "Pending"
 msgstr "Ausstehend"
@@ -1165,7 +1164,7 @@ msgstr "Ausstehendes Gesamtguthaben"
 #~ msgid "Pending unconfirmed tx"
 #~ msgstr ""
 
-#: src/hooks/usePoolClaimRewards.tsx:38
+#: src/hooks/useGroupClaimRewards.tsx:34
 msgid "Please Confirm"
 msgstr ""
 
@@ -1238,7 +1237,7 @@ msgstr "Bitte finales Verzeichnis definieren"
 msgid "Please specify temporary directory"
 msgstr "Bitte temporäres Verzeichnis definieren"
 
-#: src/hooks/usePoolClaimRewards.tsx:24
+#: src/hooks/useGroupClaimRewards.tsx:24
 #: src/hooks/usePoolJoin.tsx:26
 msgid "Please wait for synchronization"
 msgstr ""
@@ -1273,7 +1272,6 @@ msgstr "Öffentlicher Plot Schlüssel"
 #~ msgstr ""
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:66
-#: src/components/pool/add/PoolAddCreate.tsx:74
 msgid "Plot Size"
 msgstr "Plot Größe"
 
@@ -1344,7 +1342,7 @@ msgstr "Pool Belohnungs Adresse"
 msgid "Pool Reward Amount"
 msgstr "Pool Belohnungs Anzahl"
 
-#: src/components/pool/PoolCard.tsx:79
+#: src/components/group/GroupCard.tsx:79
 #: src/components/pool/PoolOverview.tsx:28
 msgid "Pool Status"
 msgstr ""
@@ -1357,12 +1355,16 @@ msgstr ""
 #~ msgid "Pool Status Currently Pooling with {poolName} ({poolUrl})"
 #~ msgstr ""
 
-#: src/components/pool/PoolCard.tsx:63
+#: src/components/group/add/GroupAddCreate.tsx:40
+msgid "Pool URL"
+msgstr ""
+
+#: src/components/group/GroupCard.tsx:63
 #: src/components/pool/PoolOverview.tsx:32
 msgid "Pool Winnings"
 msgstr ""
 
-#: src/components/pool/PoolStatus.tsx:18
+#: src/components/group/GroupStatus.tsx:18
 msgid "Pooling"
 msgstr ""
 
@@ -1571,11 +1573,11 @@ msgstr "Wähle das temporäre Ziel für den Ordner aus, wo der Plot gespeichert 
 msgid "Selected"
 msgstr "Ausgewählt"
 
-#: src/components/pool/PoolStatus.tsx:18
+#: src/components/group/GroupStatus.tsx:18
 msgid "Self Pooling"
 msgstr ""
 
-#: src/components/pool/add/PoolAddCreate.tsx:69
+#: src/components/group/add/GroupAddCreate.tsx:34
 msgid "Self pool. When you win a block you will earn XCH rewards."
 msgstr ""
 
@@ -1717,7 +1719,7 @@ msgid "Submit"
 msgstr "Einreichen"
 
 #: src/components/fullNode/FullNode.jsx:130
-#: src/components/pool/PoolWalletStatus.tsx:12
+#: src/components/wallet/WalletStatus.tsx:12
 msgid "Synced"
 msgstr "Synchronisiert"
 
@@ -1731,7 +1733,7 @@ msgstr "Synchronisieren"
 msgid "Syncing {progress}/{tip}"
 msgstr "Synchronisieren {progress}/{tip}"
 
-#: src/components/pool/PoolWalletStatus.tsx:11
+#: src/components/wallet/WalletStatus.tsx:11
 msgid "Syncing. Height: {walletSyncingHeight}"
 msgstr ""
 
@@ -1773,8 +1775,6 @@ msgstr "Der vollständige Node, mit dem dein Farmer verbunden ist, befindet sich
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
-#: src/components/pool/add/PoolAddCreate.tsx:30
-#: src/components/pool/add/PoolAddCreate.tsx:82
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Die minimal benötigte Größe für das Mainnet ist k=32"
 
@@ -1966,7 +1966,7 @@ msgstr "Transaktions Filter Hash"
 msgid "Type"
 msgstr "Typ"
 
-#: src/components/pool/PoolStatus.tsx:13
+#: src/components/group/GroupStatus.tsx:13
 msgid "Unconfirmed transaction"
 msgstr ""
 
@@ -2028,11 +2028,11 @@ msgstr "Warten auf Synchronisation"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/pool/add/PoolAdd.tsx:60
+#: src/components/group/add/GroupAdd.tsx:60
 msgid "Waiting on transaction to hit the memory pool..."
 msgstr ""
 
-#: src/components/pool/PoolCard.tsx:71
+#: src/components/group/GroupCard.tsx:71
 #: src/components/pool/PoolOverview.tsx:24
 msgid "Wallet Status"
 msgstr ""
@@ -2074,7 +2074,7 @@ msgstr "Wallets"
 #~ msgid "Wallets.title"
 #~ msgstr ""
 
-#: src/components/pool/add/PoolAddCreate.tsx:54
+#: src/components/group/add/GroupAddCreate.tsx:19
 msgid "Want to Join a Pool? Create a Group"
 msgstr ""
 
@@ -2115,18 +2115,17 @@ msgid "Without fees"
 msgstr "Ohne Gebühren"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
-#: src/components/pool/add/PoolAddCreate.tsx:30
 #: src/components/trading/TradingOverview.jsx:212
 #: src/electron/main.tsx:160
 msgid "Yes"
 msgstr "Ja"
 
-#: src/hooks/usePoolClaimRewards.tsx:32
-#: src/hooks/usePoolJoin.tsx:34
+#: src/hooks/useGroupClaimRewards.tsx:30
+#: src/hooks/usePoolJoin.tsx:32
 msgid "You are not pooling"
 msgstr ""
 
-#: src/components/pool/PoolCard.tsx:115
+#: src/components/group/GroupCard.tsx:115
 msgid "You can still create plots for this pool group, but you can not make changes until sync is complete."
 msgstr ""
 
@@ -2158,7 +2157,7 @@ msgstr "Du hast {0}% des Speichers im Netzwerk. Das Farmen eines Blocks wird dah
 #~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
 #~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
 
-#: src/hooks/usePoolClaimRewards.tsx:39
+#: src/hooks/useGroupClaimRewards.tsx:35
 msgid "You will recieve <0/> to {address}"
 msgstr ""
 
