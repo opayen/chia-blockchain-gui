@@ -76,7 +76,7 @@ msgstr "Lägg till plott i kön"
 msgid "Add Wallet"
 msgstr "Lägg till plånbok"
 
-#: src/components/group/add/GroupAdd.tsx:52
+#: src/components/group/add/GroupAdd.tsx:53
 msgid "Add a Group"
 msgstr ""
 
@@ -370,7 +370,7 @@ msgstr "Anslut"
 msgid "Connect to other peers"
 msgstr "Anslut till andra peer-datorer"
 
-#: src/components/group/add/GroupAddCreate.tsx:36
+#: src/components/group/add/GroupAddCreate.tsx:44
 msgid "Connect to pool"
 msgstr ""
 
@@ -421,7 +421,7 @@ msgid "Copy to Clipboard"
 msgstr "Kopiera till Urklipp"
 
 #: src/components/backup/BackupCreate.tsx:70
-#: src/components/group/add/GroupAdd.tsx:69
+#: src/components/group/add/GroupAdd.tsx:70
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -894,7 +894,7 @@ msgstr ""
 msgid "Join a Pool"
 msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:21
+#: src/components/group/add/GroupAddCreate.tsx:29
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
 msgstr ""
 
@@ -1306,7 +1306,7 @@ msgstr "Plottning med bitfield aktiverat ger ungefär 30 % färre skrivningar o
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:27
-#: src/components/pool/Pool.tsx:16
+#: src/components/pool/Pool.tsx:17
 msgid "Pool"
 msgstr ""
 
@@ -1348,8 +1348,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/group/add/GroupAddCreate.tsx:40
-msgid "Pool URL"
-msgstr ""
+#~ msgid "Pool URL"
+#~ msgstr ""
 
 #: src/components/group/GroupCard.tsx:63
 #: src/components/pool/PoolOverview.tsx:32
@@ -1569,7 +1569,7 @@ msgstr "Vald"
 msgid "Self Pooling"
 msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:34
+#: src/components/group/add/GroupAddCreate.tsx:42
 msgid "Self pool. When you win a block you will earn XCH rewards."
 msgstr ""
 
@@ -2020,7 +2020,7 @@ msgstr "Väntar på synkronisering"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/group/add/GroupAdd.tsx:60
+#: src/components/group/add/GroupAdd.tsx:61
 msgid "Waiting on transaction to hit the memory pool..."
 msgstr ""
 
@@ -2066,7 +2066,7 @@ msgstr "Plånböcker"
 #~ msgid "Wallets.title"
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:19
+#: src/components/group/add/GroupAddCreate.tsx:27
 msgid "Want to Join a Pool? Create a Group"
 msgstr ""
 
