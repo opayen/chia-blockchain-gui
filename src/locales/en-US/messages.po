@@ -77,8 +77,8 @@ msgid "Add Wallet"
 msgstr "Add Wallet"
 
 #: src/components/group/add/GroupAdd.tsx:53
-msgid "Add a Group"
-msgstr "Add a Group"
+#~ msgid "Add a Group"
+#~ msgstr "Add a Group"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:35
 #: src/components/plot/PlotHeader.tsx:36
@@ -86,6 +86,10 @@ msgstr "Add a Group"
 #: src/components/plot/overview/PlotOverviewHero.tsx:29
 msgid "Add a Plot"
 msgstr "Add a Plot"
+
+#: src/components/group/add/GroupAdd.tsx:53
+msgid "Add a Plot NFT"
+msgstr "Add a Plot NFT"
 
 #: src/components/plot/PlotAddDirectoryDialog.tsx:40
 msgid "Add a plot"
@@ -895,8 +899,12 @@ msgid "Join a Pool"
 msgstr "Join a Pool"
 
 #: src/components/group/add/GroupAddCreate.tsx:29
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
-msgstr "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
+#~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
+#~ msgstr "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
+
+#: src/components/group/add/GroupAddCreate.tsx:29
+msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. When pools are released, you can easily switch pools without having to re-plot."
+msgstr "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. When pools are released, you can easily switch pools without having to re-plot."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:37
 msgid "K-Size"
@@ -2067,8 +2075,12 @@ msgstr "Wallets"
 #~ msgstr ""
 
 #: src/components/group/add/GroupAddCreate.tsx:27
-msgid "Want to Join a Pool? Create a Group"
-msgstr "Want to Join a Pool? Create a Group"
+#~ msgid "Want to Join a Pool? Create a Group"
+#~ msgstr "Want to Join a Pool? Create a Group"
+
+#: src/components/group/add/GroupAddCreate.tsx:27
+msgid "Want to Join a Pool? Create a Plot NFT"
+msgstr "Want to Join a Pool? Create a Plot NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:88
 msgid "Want to earn more Chia? Add more plots to your farm."

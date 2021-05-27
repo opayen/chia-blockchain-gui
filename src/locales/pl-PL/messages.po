@@ -77,8 +77,8 @@ msgid "Add Wallet"
 msgstr "Dodaj portfel"
 
 #: src/components/group/add/GroupAdd.tsx:53
-msgid "Add a Group"
-msgstr ""
+#~ msgid "Add a Group"
+#~ msgstr ""
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:35
 #: src/components/plot/PlotHeader.tsx:36
@@ -86,6 +86,10 @@ msgstr ""
 #: src/components/plot/overview/PlotOverviewHero.tsx:29
 msgid "Add a Plot"
 msgstr "Dodaj działkę"
+
+#: src/components/group/add/GroupAdd.tsx:53
+msgid "Add a Plot NFT"
+msgstr ""
 
 #: src/components/plot/PlotAddDirectoryDialog.tsx:40
 msgid "Add a plot"
@@ -895,7 +899,11 @@ msgid "Join a Pool"
 msgstr ""
 
 #: src/components/group/add/GroupAddCreate.tsx:29
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
+#~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
+#~ msgstr ""
+
+#: src/components/group/add/GroupAddCreate.tsx:29
+msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. When pools are released, you can easily switch pools without having to re-plot."
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:37
@@ -2067,7 +2075,11 @@ msgstr "Portfele"
 #~ msgstr ""
 
 #: src/components/group/add/GroupAddCreate.tsx:27
-msgid "Want to Join a Pool? Create a Group"
+#~ msgid "Want to Join a Pool? Create a Group"
+#~ msgstr ""
+
+#: src/components/group/add/GroupAddCreate.tsx:27
+msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:88
