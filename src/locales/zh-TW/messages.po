@@ -87,7 +87,7 @@ msgstr "新增錢包"
 msgid "Add a Plot"
 msgstr "新增耕地"
 
-#: src/components/group/add/GroupAdd.tsx:62
+#: src/components/group/add/GroupAdd.tsx:85
 msgid "Add a Plot NFT"
 msgstr ""
 
@@ -349,7 +349,7 @@ msgid "Coloured Coin Options"
 msgstr "有色代幣選項"
 
 #: src/electron/main.tsx:195
-#: src/hooks/useGroupClaimRewards.tsx:41
+#: src/hooks/useGroupClaimRewards.tsx:43
 msgid "Confirm"
 msgstr "確認"
 
@@ -374,7 +374,7 @@ msgstr "連線"
 msgid "Connect to other peers"
 msgstr "連線到其他同儕"
 
-#: src/components/group/add/GroupAddCreate.tsx:72
+#: src/components/group/add/GroupAddCreate.tsx:77
 msgid "Connect to pool"
 msgstr ""
 
@@ -425,7 +425,7 @@ msgid "Copy to Clipboard"
 msgstr "複製到剪貼板"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/group/add/GroupAdd.tsx:83
+#: src/components/group/add/GroupAdd.tsx:106
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -569,8 +569,8 @@ msgid "Deleting the key will permanently remove the key from your computer, make
 msgstr "刪除此金鑰將會永久從你的電腦中移除，請確保你有備份。你確定要繼續？"
 
 #: src/components/pool/PoolDetails.tsx:83
-msgid "Description"
-msgstr ""
+#~ msgid "Description"
+#~ msgstr ""
 
 #: src/electron/main.tsx:305
 msgid "Developer"
@@ -714,7 +714,8 @@ msgstr "耕種中"
 msgid "Farming Status"
 msgstr "耕種狀態"
 
-#: src/components/pool/PoolDetails.tsx:75
+#: src/components/group/add/GroupAddCreate.tsx:107
+#: src/components/pool/PoolInfo.tsx:29
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
@@ -824,7 +825,7 @@ msgstr "幫助"
 msgid "Help translate"
 msgstr "協助翻譯"
 
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:41
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:71
 msgid "Hide Advanced Options"
 msgstr "隱藏進階選項"
 
@@ -907,7 +908,7 @@ msgstr ""
 #~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:47
+#: src/components/group/add/GroupAddCreate.tsx:52
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. When pools are released, you can easily switch pools without having to re-plot."
 msgstr ""
 
@@ -1004,6 +1005,10 @@ msgstr "管理你的耕種獎勵目標地址"
 msgid "MiB Up/Down"
 msgstr "MiB 上傳/下傳"
 
+#: src/components/pool/PoolInfo.tsx:35
+msgid "Minimum Difficulty"
+msgstr ""
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:95
 msgid "Minutes"
 msgstr "分鐘"
@@ -1017,8 +1022,8 @@ msgid "My Pubkey"
 msgstr "我的公鑰"
 
 #: src/components/pool/PoolDetails.tsx:67
-msgid "Name"
-msgstr ""
+#~ msgid "Name"
+#~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:160
 msgid "Network Name"
@@ -1175,7 +1180,7 @@ msgstr "未結總餘額"
 #~ msgid "Pending unconfirmed tx"
 #~ msgstr ""
 
-#: src/hooks/useGroupClaimRewards.tsx:40
+#: src/hooks/useGroupClaimRewards.tsx:42
 msgid "Please Confirm"
 msgstr ""
 
@@ -1248,7 +1253,7 @@ msgstr "請指定最終資料夾"
 msgid "Please specify temporary directory"
 msgstr "請指定暫存目錄"
 
-#: src/hooks/useGroupClaimRewards.tsx:24
+#: src/hooks/useGroupClaimRewards.tsx:26
 #: src/hooks/usePoolJoin.tsx:26
 msgid "Please wait for synchronization"
 msgstr ""
@@ -1323,7 +1328,7 @@ msgstr "以 bitfield 規劃耕地可減少約 30％ 的總寫入量且如今也�
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
-#: src/components/pool/Pool.tsx:31
+#: src/components/pool/Pool.tsx:35
 msgid "Pool"
 msgstr ""
 
@@ -1371,6 +1376,18 @@ msgstr ""
 #: src/components/group/GroupCard.tsx:83
 #: src/components/pool/PoolOverview.tsx:40
 msgid "Pool Winnings"
+msgstr ""
+
+#: src/components/group/add/GroupAdd.tsx:56
+msgid "Pool does not provide relative_lock_height."
+msgstr ""
+
+#: src/components/group/add/GroupAdd.tsx:53
+msgid "Pool does not provide target_puzzle_hash."
+msgstr ""
+
+#: src/components/pool/PoolInfo.tsx:48
+msgid "Pool logo"
 msgstr ""
 
 #: src/components/pool/PoolDetails.tsx:28
@@ -1423,6 +1440,10 @@ msgstr "空間證明的大小"
 #: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "發現證明數"
+
+#: src/components/pool/PoolInfo.tsx:32
+msgid "Protocol Version"
+msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:323
 msgid "Pubkey"
@@ -1489,6 +1510,10 @@ msgstr "恢復 DID 錢包"
 #: src/components/plot/PlotHeader.tsx:65
 msgid "Refresh Plots"
 msgstr "刷新耕地"
+
+#: src/components/pool/PoolInfo.tsx:38
+msgid "Relative Lock Height"
+msgstr ""
 
 #: src/electron/main.tsx:375
 msgid "Release Notes"
@@ -1590,7 +1615,7 @@ msgstr "已選擇"
 msgid "Self Pooling"
 msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:65
+#: src/components/group/add/GroupAddCreate.tsx:70
 msgid "Self pool. When you win a block you will earn XCH rewards."
 msgstr ""
 
@@ -1614,7 +1639,7 @@ msgstr "發送這個資訊封包給你必須需要完成設定他們錢包的速
 msgid "Send your pubkey to your Rate Limited Wallet admin:"
 msgstr "發送你的公鑰到你的速率限制錢包管理員："
 
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:48
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:70
 msgid "Show Advanced Options"
 msgstr "顯示進階選項"
 
@@ -1770,6 +1795,10 @@ msgstr ""
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
 
+#: src/components/pool/PoolInfo.tsx:41
+msgid "Target Puzzle Hash"
+msgstr ""
+
 #: src/components/plot/add/PlotAddChooseSize.tsx:18
 #~ msgid "Temporary files are created during the plotting process which exceeds the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 #~ msgstr ""
@@ -1799,7 +1828,7 @@ msgstr "此節點尚未同步"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "節點同步中，這代表正從其他節點中下載區塊，直到到達區塊鏈的最新區塊"
 
-#: src/components/pool/PoolDetails.tsx:29
+#: src/hooks/usePoolInfo.ts:20
 msgid "The pool URL speciefied is not valid. {poolUrl}"
 msgstr ""
 
@@ -2008,6 +2037,10 @@ msgstr "使用者公鑰"
 msgid "VDF Sub Slot Iterations"
 msgstr "VDF 子欄位疊代次數"
 
+#: src/components/group/add/GroupAddCreate.tsx:117
+msgid "Verify Pool Details"
+msgstr ""
+
 #: src/electron/main.tsx:296
 msgid "View"
 msgstr "檢視"
@@ -2045,7 +2078,7 @@ msgstr "等待同步中"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/group/add/GroupAdd.tsx:72
+#: src/components/group/add/GroupAdd.tsx:95
 msgid "Waiting on transaction to hit the memory pool..."
 msgstr ""
 
@@ -2095,7 +2128,7 @@ msgstr "錢包"
 #~ msgid "Want to Join a Pool? Create a Group"
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:44
+#: src/components/group/add/GroupAddCreate.tsx:49
 msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
@@ -2141,7 +2174,7 @@ msgstr "未計雜費"
 msgid "Yes"
 msgstr "是"
 
-#: src/hooks/useGroupClaimRewards.tsx:32
+#: src/hooks/useGroupClaimRewards.tsx:34
 #: src/hooks/usePoolJoin.tsx:34
 msgid "You are not pooling"
 msgstr ""
@@ -2178,7 +2211,7 @@ msgstr "你擁有 {0} ％的網路空間，耕種一個區塊預計要 {expected
 #~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
 #~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
 
-#: src/hooks/useGroupClaimRewards.tsx:44
+#: src/hooks/useGroupClaimRewards.tsx:46
 msgid "You will recieve <0/> to {address}"
 msgstr ""
 

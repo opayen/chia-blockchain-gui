@@ -11,6 +11,7 @@ import PlotAddChooseSize from './PlotAddChooseSize';
 import PlotAddNumberOfPlots from './PlotAddNumberOfPlots';
 import PlotAddSelectTemporaryDirectory from './PlotAddSelectTemporaryDirectory';
 import PlotAddSelectFinalDirectory from './PlotAddSelectFinalDirectory';
+import PlotAddNFT from './PlotAddNFT';
 import { plotQueueAdd } from '../../../modules/plotQueue';
 import PlotAddConfig from '../../../types/PlotAdd';
 import plotSizes, { defaultPlotSize } from '../../../constants/plotSizes';
@@ -39,6 +40,7 @@ export default function PlotAdd() {
       parallel: false,
       disableBitfieldPlotting: false,
       excludeFinalDir: false,
+      nft: '',
     },
   });
 
@@ -84,6 +86,7 @@ export default function PlotAdd() {
         <PlotAddNumberOfPlots />
         <PlotAddSelectTemporaryDirectory />
         <PlotAddSelectFinalDirectory />
+        <PlotAddNFT />
         <div>
           <Button color="primary" type="submit" variant="contained">
             <Trans>

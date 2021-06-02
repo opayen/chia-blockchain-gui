@@ -89,7 +89,7 @@ msgstr "افزودن کیف پول"
 msgid "Add a Plot"
 msgstr "افزودن پلات"
 
-#: src/components/group/add/GroupAdd.tsx:62
+#: src/components/group/add/GroupAdd.tsx:85
 msgid "Add a Plot NFT"
 msgstr ""
 
@@ -353,7 +353,7 @@ msgid "Coloured Coin Options"
 msgstr "تنظیمات سکه رنگ شده"
 
 #: src/electron/main.tsx:195
-#: src/hooks/useGroupClaimRewards.tsx:41
+#: src/hooks/useGroupClaimRewards.tsx:43
 msgid "Confirm"
 msgstr "تایید"
 
@@ -378,7 +378,7 @@ msgstr "اتصال"
 msgid "Connect to other peers"
 msgstr "اتصال به سایر همسان‌ ها"
 
-#: src/components/group/add/GroupAddCreate.tsx:72
+#: src/components/group/add/GroupAddCreate.tsx:77
 msgid "Connect to pool"
 msgstr ""
 
@@ -429,7 +429,7 @@ msgid "Copy to Clipboard"
 msgstr "رونوشت در کلیپ بورد"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/group/add/GroupAdd.tsx:83
+#: src/components/group/add/GroupAdd.tsx:106
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -575,8 +575,8 @@ msgid "Deleting the key will permanently remove the key from your computer, make
 msgstr "حذف کلید، آن را برای همیشه از روی کامپیوتر شما حذف می‌کند، مطمئن شوید که نسخه پشتیبان دارید. آیا مطمئنید که می‌خواهید ادامه دهید؟"
 
 #: src/components/pool/PoolDetails.tsx:83
-msgid "Description"
-msgstr ""
+#~ msgid "Description"
+#~ msgstr ""
 
 #: src/electron/main.tsx:305
 msgid "Developer"
@@ -720,7 +720,8 @@ msgstr "مزرعه داری"
 msgid "Farming Status"
 msgstr "وضعیت مزرعه داری"
 
-#: src/components/pool/PoolDetails.tsx:75
+#: src/components/group/add/GroupAddCreate.tsx:107
+#: src/components/pool/PoolInfo.tsx:29
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
@@ -830,7 +831,7 @@ msgstr "راهنما"
 msgid "Help translate"
 msgstr "کمک در ترجمه"
 
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:41
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:71
 msgid "Hide Advanced Options"
 msgstr "پنهان سازی گزینه های پیشرفته"
 
@@ -913,7 +914,7 @@ msgstr ""
 #~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:47
+#: src/components/group/add/GroupAddCreate.tsx:52
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. When pools are released, you can easily switch pools without having to re-plot."
 msgstr ""
 
@@ -1010,6 +1011,10 @@ msgstr "آدرس های مقصد خود را برای پاداش های مزرع
 msgid "MiB Up/Down"
 msgstr "MiB آپلود/دانلود"
 
+#: src/components/pool/PoolInfo.tsx:35
+msgid "Minimum Difficulty"
+msgstr ""
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:95
 msgid "Minutes"
 msgstr "دقیقه"
@@ -1023,8 +1028,8 @@ msgid "My Pubkey"
 msgstr "کلید عمومی من"
 
 #: src/components/pool/PoolDetails.tsx:67
-msgid "Name"
-msgstr ""
+#~ msgid "Name"
+#~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:160
 msgid "Network Name"
@@ -1181,7 +1186,7 @@ msgstr "مقدار موجودی در انتظار"
 #~ msgid "Pending unconfirmed tx"
 #~ msgstr ""
 
-#: src/hooks/useGroupClaimRewards.tsx:40
+#: src/hooks/useGroupClaimRewards.tsx:42
 msgid "Please Confirm"
 msgstr ""
 
@@ -1254,7 +1259,7 @@ msgstr "لطفاً محل پوشه نهایی را مشخص کنید"
 msgid "Please specify temporary directory"
 msgstr "لطفا پوشه موقت را مشخص کنید"
 
-#: src/hooks/useGroupClaimRewards.tsx:24
+#: src/hooks/useGroupClaimRewards.tsx:26
 #: src/hooks/usePoolJoin.tsx:26
 msgid "Please wait for synchronization"
 msgstr ""
@@ -1329,7 +1334,7 @@ msgstr "پلات سازی با فعال کردن bitfield حدود ۳۰٪ اعم
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
-#: src/components/pool/Pool.tsx:31
+#: src/components/pool/Pool.tsx:35
 msgid "Pool"
 msgstr ""
 
@@ -1377,6 +1382,18 @@ msgstr ""
 #: src/components/group/GroupCard.tsx:83
 #: src/components/pool/PoolOverview.tsx:40
 msgid "Pool Winnings"
+msgstr ""
+
+#: src/components/group/add/GroupAdd.tsx:56
+msgid "Pool does not provide relative_lock_height."
+msgstr ""
+
+#: src/components/group/add/GroupAdd.tsx:53
+msgid "Pool does not provide target_puzzle_hash."
+msgstr ""
+
+#: src/components/pool/PoolInfo.tsx:48
+msgid "Pool logo"
 msgstr ""
 
 #: src/components/pool/PoolDetails.tsx:28
@@ -1429,6 +1446,10 @@ msgstr "اثباتِ مقدار فضا"
 #: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "اثبات های یافت شده"
+
+#: src/components/pool/PoolInfo.tsx:32
+msgid "Protocol Version"
+msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:323
 msgid "Pubkey"
@@ -1495,6 +1516,10 @@ msgstr "بازیابی کیف پول DID"
 #: src/components/plot/PlotHeader.tsx:65
 msgid "Refresh Plots"
 msgstr "تازه سازی پلات ها"
+
+#: src/components/pool/PoolInfo.tsx:38
+msgid "Relative Lock Height"
+msgstr ""
 
 #: src/electron/main.tsx:375
 msgid "Release Notes"
@@ -1596,7 +1621,7 @@ msgstr "انتخاب"
 msgid "Self Pooling"
 msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:65
+#: src/components/group/add/GroupAddCreate.tsx:70
 msgid "Self pool. When you win a block you will earn XCH rewards."
 msgstr ""
 
@@ -1620,7 +1645,7 @@ msgstr "این بسته اطلاعاتی را برای کاربر کیف پول 
 msgid "Send your pubkey to your Rate Limited Wallet admin:"
 msgstr "کلید عمومی خود را به مدیر کیف پولِ نرخ محدود خود ارسال کنید:"
 
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:48
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:70
 msgid "Show Advanced Options"
 msgstr "نمایش گزینه‌های پیشرفته"
 
@@ -1776,6 +1801,10 @@ msgstr ""
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
 
+#: src/components/pool/PoolInfo.tsx:41
+msgid "Target Puzzle Hash"
+msgstr ""
+
 #: src/components/plot/add/PlotAddChooseSize.tsx:18
 #~ msgid "Temporary files are created during the plotting process which exceeds the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 #~ msgstr ""
@@ -1805,7 +1834,7 @@ msgstr "گره همگام سازی نشده"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "گره در حال همگام سازی است ، به این معنی که بلوک ها را از گره های دیگر بارگیری می کند تا به آخرین بلوک در زنجیره برسد"
 
-#: src/components/pool/PoolDetails.tsx:29
+#: src/hooks/usePoolInfo.ts:20
 msgid "The pool URL speciefied is not valid. {poolUrl}"
 msgstr ""
 
@@ -2018,6 +2047,10 @@ msgstr "کلید عمومی کاربر"
 msgid "VDF Sub Slot Iterations"
 msgstr "تکرارهای زیر شکافی VDF"
 
+#: src/components/group/add/GroupAddCreate.tsx:117
+msgid "Verify Pool Details"
+msgstr ""
+
 #: src/electron/main.tsx:296
 msgid "View"
 msgstr "مشاهده"
@@ -2055,7 +2088,7 @@ msgstr "در انتظار همگام سازی"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/group/add/GroupAdd.tsx:72
+#: src/components/group/add/GroupAdd.tsx:95
 msgid "Waiting on transaction to hit the memory pool..."
 msgstr ""
 
@@ -2105,7 +2138,7 @@ msgstr "کیف پول ها"
 #~ msgid "Want to Join a Pool? Create a Group"
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:44
+#: src/components/group/add/GroupAddCreate.tsx:49
 msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
@@ -2153,7 +2186,7 @@ msgstr "بدونه کارمزد"
 msgid "Yes"
 msgstr "بله"
 
-#: src/hooks/useGroupClaimRewards.tsx:32
+#: src/hooks/useGroupClaimRewards.tsx:34
 #: src/hooks/usePoolJoin.tsx:34
 msgid "You are not pooling"
 msgstr ""
@@ -2192,7 +2225,7 @@ msgstr ""
 #~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
 #~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
 
-#: src/hooks/useGroupClaimRewards.tsx:44
+#: src/hooks/useGroupClaimRewards.tsx:46
 msgid "You will recieve <0/> to {address}"
 msgstr ""
 

@@ -87,7 +87,7 @@ msgstr "Добавить кошелек"
 msgid "Add a Plot"
 msgstr "Добавить участок"
 
-#: src/components/group/add/GroupAdd.tsx:62
+#: src/components/group/add/GroupAdd.tsx:85
 msgid "Add a Plot NFT"
 msgstr ""
 
@@ -521,7 +521,7 @@ msgid "Coloured Coin Options"
 msgstr "Настройки Цветной Монеты"
 
 #: src/electron/main.tsx:195
-#: src/hooks/useGroupClaimRewards.tsx:41
+#: src/hooks/useGroupClaimRewards.tsx:43
 msgid "Confirm"
 msgstr "Подтвердить"
 
@@ -546,7 +546,7 @@ msgstr "Подключиться"
 msgid "Connect to other peers"
 msgstr "Подключиться к другим узлам"
 
-#: src/components/group/add/GroupAddCreate.tsx:72
+#: src/components/group/add/GroupAddCreate.tsx:77
 msgid "Connect to pool"
 msgstr ""
 
@@ -597,7 +597,7 @@ msgid "Copy to Clipboard"
 msgstr "Скопировать в буфер обмена"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/group/add/GroupAdd.tsx:83
+#: src/components/group/add/GroupAdd.tsx:106
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -741,8 +741,8 @@ msgid "Deleting the key will permanently remove the key from your computer, make
 msgstr "Удаление ключа приведет к безвозвратному удалению ключа с вашего компьютера, убедитесь, что у вас есть резервные копии. Вы уверены что хотите продолжить?"
 
 #: src/components/pool/PoolDetails.tsx:83
-msgid "Description"
-msgstr ""
+#~ msgid "Description"
+#~ msgstr ""
 
 #: src/electron/main.tsx:305
 msgid "Developer"
@@ -886,7 +886,8 @@ msgstr "Фарминг"
 msgid "Farming Status"
 msgstr "Статус фарминга"
 
-#: src/components/pool/PoolDetails.tsx:75
+#: src/components/group/add/GroupAddCreate.tsx:107
+#: src/components/pool/PoolInfo.tsx:29
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
@@ -996,7 +997,7 @@ msgstr "Помощь"
 msgid "Help translate"
 msgstr "Помогите с переводом"
 
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:41
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:71
 msgid "Hide Advanced Options"
 msgstr "Скрыть дополнительные опции"
 
@@ -1079,7 +1080,7 @@ msgstr ""
 #~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:47
+#: src/components/group/add/GroupAddCreate.tsx:52
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. When pools are released, you can easily switch pools without having to re-plot."
 msgstr ""
 
@@ -1176,6 +1177,10 @@ msgstr "Управление целевыми адресами для получ
 msgid "MiB Up/Down"
 msgstr "МиБ Исх./Вх."
 
+#: src/components/pool/PoolInfo.tsx:35
+msgid "Minimum Difficulty"
+msgstr ""
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:95
 msgid "Minutes"
 msgstr "Минут"
@@ -1189,8 +1194,8 @@ msgid "My Pubkey"
 msgstr "Мой публичный ключ"
 
 #: src/components/pool/PoolDetails.tsx:67
-msgid "Name"
-msgstr ""
+#~ msgid "Name"
+#~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:160
 msgid "Network Name"
@@ -1347,7 +1352,7 @@ msgstr "Ожидаемый итоговый баланс"
 #~ msgid "Pending unconfirmed tx"
 #~ msgstr ""
 
-#: src/hooks/useGroupClaimRewards.tsx:40
+#: src/hooks/useGroupClaimRewards.tsx:42
 msgid "Please Confirm"
 msgstr ""
 
@@ -1420,7 +1425,7 @@ msgstr "Пожалуйста, укажите окончательный ката
 msgid "Please specify temporary directory"
 msgstr "Пожалуйста, укажите временную директорию"
 
-#: src/hooks/useGroupClaimRewards.tsx:24
+#: src/hooks/useGroupClaimRewards.tsx:26
 #: src/hooks/usePoolJoin.tsx:26
 msgid "Please wait for synchronization"
 msgstr ""
@@ -1495,7 +1500,7 @@ msgstr "Разметка участков при включенной функц
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
-#: src/components/pool/Pool.tsx:31
+#: src/components/pool/Pool.tsx:35
 msgid "Pool"
 msgstr ""
 
@@ -1543,6 +1548,18 @@ msgstr ""
 #: src/components/group/GroupCard.tsx:83
 #: src/components/pool/PoolOverview.tsx:40
 msgid "Pool Winnings"
+msgstr ""
+
+#: src/components/group/add/GroupAdd.tsx:56
+msgid "Pool does not provide relative_lock_height."
+msgstr ""
+
+#: src/components/group/add/GroupAdd.tsx:53
+msgid "Pool does not provide target_puzzle_hash."
+msgstr ""
+
+#: src/components/pool/PoolInfo.tsx:48
+msgid "Pool logo"
 msgstr ""
 
 #: src/components/pool/PoolDetails.tsx:28
@@ -1595,6 +1612,10 @@ msgstr "Размер доказательства пространства (Proo
 #: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Доказательств найдено"
+
+#: src/components/pool/PoolInfo.tsx:32
+msgid "Protocol Version"
+msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:323
 msgid "Pubkey"
@@ -1661,6 +1682,10 @@ msgstr "Восстанавление Кошелека Децентрализов
 #: src/components/plot/PlotHeader.tsx:65
 msgid "Refresh Plots"
 msgstr "Обновить участки"
+
+#: src/components/pool/PoolInfo.tsx:38
+msgid "Relative Lock Height"
+msgstr ""
 
 #: src/electron/main.tsx:375
 msgid "Release Notes"
@@ -1762,7 +1787,7 @@ msgstr "Выбран"
 msgid "Self Pooling"
 msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:65
+#: src/components/group/add/GroupAddCreate.tsx:70
 msgid "Self pool. When you win a block you will earn XCH rewards."
 msgstr ""
 
@@ -1786,7 +1811,7 @@ msgstr "Отправьте этот информационный пакет по
 msgid "Send your pubkey to your Rate Limited Wallet admin:"
 msgstr "Отправьте этот публичный ключ администратору вашего кошелька с ограниченной скоростью вывода средств:"
 
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:48
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:70
 msgid "Show Advanced Options"
 msgstr "Показать дополнительные опции"
 
@@ -1942,6 +1967,10 @@ msgstr ""
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
 
+#: src/components/pool/PoolInfo.tsx:41
+msgid "Target Puzzle Hash"
+msgstr ""
+
 #: src/components/plot/add/PlotAddChooseSize.tsx:18
 #~ msgid "Temporary files are created during the plotting process which exceeds the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 #~ msgstr ""
@@ -1971,7 +2000,7 @@ msgstr "Узел не синхронизирован с сетью"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Узел синхронизируется, что означает, что он загружает блоки с других узлов, чтобы достичь последнего блока в цепи"
 
-#: src/components/pool/PoolDetails.tsx:29
+#: src/hooks/usePoolInfo.ts:20
 msgid "The pool URL speciefied is not valid. {poolUrl}"
 msgstr ""
 
@@ -2180,6 +2209,10 @@ msgstr "Пользовательский публичный ключ"
 msgid "VDF Sub Slot Iterations"
 msgstr "Итерации VDF суб слота"
 
+#: src/components/group/add/GroupAddCreate.tsx:117
+msgid "Verify Pool Details"
+msgstr ""
+
 #: src/electron/main.tsx:296
 msgid "View"
 msgstr "Вид"
@@ -2217,7 +2250,7 @@ msgstr "Дождитесь синхронизации"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/group/add/GroupAdd.tsx:72
+#: src/components/group/add/GroupAdd.tsx:95
 msgid "Waiting on transaction to hit the memory pool..."
 msgstr ""
 
@@ -2267,7 +2300,7 @@ msgstr "Кошельки"
 #~ msgid "Want to Join a Pool? Create a Group"
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:44
+#: src/components/group/add/GroupAddCreate.tsx:49
 msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
@@ -2313,7 +2346,7 @@ msgstr "Без комиссии"
 msgid "Yes"
 msgstr "Да"
 
-#: src/hooks/useGroupClaimRewards.tsx:32
+#: src/hooks/useGroupClaimRewards.tsx:34
 #: src/hooks/usePoolJoin.tsx:34
 msgid "You are not pooling"
 msgstr ""
@@ -2350,7 +2383,7 @@ msgstr "У вас есть {0}% пространства в сети, поэто
 #~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
 #~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
 
-#: src/hooks/useGroupClaimRewards.tsx:44
+#: src/hooks/useGroupClaimRewards.tsx:46
 msgid "You will recieve <0/> to {address}"
 msgstr ""
 

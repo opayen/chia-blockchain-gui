@@ -87,7 +87,7 @@ msgstr "Wallet hinzufügen"
 msgid "Add a Plot"
 msgstr "Plot hinzufügen"
 
-#: src/components/group/add/GroupAdd.tsx:62
+#: src/components/group/add/GroupAdd.tsx:85
 msgid "Add a Plot NFT"
 msgstr ""
 
@@ -349,7 +349,7 @@ msgid "Coloured Coin Options"
 msgstr "Optionen für farbigen Coin"
 
 #: src/electron/main.tsx:195
-#: src/hooks/useGroupClaimRewards.tsx:41
+#: src/hooks/useGroupClaimRewards.tsx:43
 msgid "Confirm"
 msgstr "Bestätigen"
 
@@ -374,7 +374,7 @@ msgstr "Verbinden"
 msgid "Connect to other peers"
 msgstr "Mit anderen Peers verbinden"
 
-#: src/components/group/add/GroupAddCreate.tsx:72
+#: src/components/group/add/GroupAddCreate.tsx:77
 msgid "Connect to pool"
 msgstr ""
 
@@ -425,7 +425,7 @@ msgid "Copy to Clipboard"
 msgstr "In die Zwischenablage kopieren"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/group/add/GroupAdd.tsx:83
+#: src/components/group/add/GroupAdd.tsx:106
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -575,8 +575,8 @@ msgstr ""
 "Bist du sicher, dass du mit dem Löschen fortfahren möchtest?"
 
 #: src/components/pool/PoolDetails.tsx:83
-msgid "Description"
-msgstr ""
+#~ msgid "Description"
+#~ msgstr ""
 
 #: src/electron/main.tsx:305
 msgid "Developer"
@@ -720,7 +720,8 @@ msgstr "Farming"
 msgid "Farming Status"
 msgstr "Farm Status"
 
-#: src/components/pool/PoolDetails.tsx:75
+#: src/components/group/add/GroupAddCreate.tsx:107
+#: src/components/pool/PoolInfo.tsx:29
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
@@ -830,7 +831,7 @@ msgstr "Hilfe"
 msgid "Help translate"
 msgstr "Hilf mit bei der Übersetzung"
 
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:41
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:71
 msgid "Hide Advanced Options"
 msgstr "Erweiterte Optionen ausblenden"
 
@@ -913,7 +914,7 @@ msgstr ""
 #~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a group. When pools are released, you can easily switch pools without having to re-plot."
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:47
+#: src/components/group/add/GroupAddCreate.tsx:52
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. When pools are released, you can easily switch pools without having to re-plot."
 msgstr ""
 
@@ -1010,6 +1011,10 @@ msgstr "Verwalte deine Farming Belohnungs Adressen"
 msgid "MiB Up/Down"
 msgstr "MiB Up/Down"
 
+#: src/components/pool/PoolInfo.tsx:35
+msgid "Minimum Difficulty"
+msgstr ""
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:95
 msgid "Minutes"
 msgstr "Minuten"
@@ -1023,8 +1028,8 @@ msgid "My Pubkey"
 msgstr "Mein öffentlicher Schlüssel"
 
 #: src/components/pool/PoolDetails.tsx:67
-msgid "Name"
-msgstr ""
+#~ msgid "Name"
+#~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:160
 msgid "Network Name"
@@ -1181,7 +1186,7 @@ msgstr "Ausstehendes Gesamtguthaben"
 #~ msgid "Pending unconfirmed tx"
 #~ msgstr ""
 
-#: src/hooks/useGroupClaimRewards.tsx:40
+#: src/hooks/useGroupClaimRewards.tsx:42
 msgid "Please Confirm"
 msgstr ""
 
@@ -1254,7 +1259,7 @@ msgstr "Bitte finales Verzeichnis definieren"
 msgid "Please specify temporary directory"
 msgstr "Bitte temporäres Verzeichnis definieren"
 
-#: src/hooks/useGroupClaimRewards.tsx:24
+#: src/hooks/useGroupClaimRewards.tsx:26
 #: src/hooks/usePoolJoin.tsx:26
 msgid "Please wait for synchronization"
 msgstr ""
@@ -1331,7 +1336,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
-#: src/components/pool/Pool.tsx:31
+#: src/components/pool/Pool.tsx:35
 msgid "Pool"
 msgstr ""
 
@@ -1379,6 +1384,18 @@ msgstr ""
 #: src/components/group/GroupCard.tsx:83
 #: src/components/pool/PoolOverview.tsx:40
 msgid "Pool Winnings"
+msgstr ""
+
+#: src/components/group/add/GroupAdd.tsx:56
+msgid "Pool does not provide relative_lock_height."
+msgstr ""
+
+#: src/components/group/add/GroupAdd.tsx:53
+msgid "Pool does not provide target_puzzle_hash."
+msgstr ""
+
+#: src/components/pool/PoolInfo.tsx:48
+msgid "Pool logo"
 msgstr ""
 
 #: src/components/pool/PoolDetails.tsx:28
@@ -1431,6 +1448,10 @@ msgstr "Proof of Space Größe"
 #: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Proofs gefunden"
+
+#: src/components/pool/PoolInfo.tsx:32
+msgid "Protocol Version"
+msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:323
 msgid "Pubkey"
@@ -1497,6 +1518,10 @@ msgstr "DID Wallet wiederherstellen"
 #: src/components/plot/PlotHeader.tsx:65
 msgid "Refresh Plots"
 msgstr "Plots aktualisieren"
+
+#: src/components/pool/PoolInfo.tsx:38
+msgid "Relative Lock Height"
+msgstr ""
 
 #: src/electron/main.tsx:375
 msgid "Release Notes"
@@ -1598,7 +1623,7 @@ msgstr "Ausgewählt"
 msgid "Self Pooling"
 msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:65
+#: src/components/group/add/GroupAddCreate.tsx:70
 msgid "Self pool. When you win a block you will earn XCH rewards."
 msgstr ""
 
@@ -1622,7 +1647,7 @@ msgstr "Sende dieses Informationspaket an deinen Rate Limited Wallet Benutzer, d
 msgid "Send your pubkey to your Rate Limited Wallet admin:"
 msgstr "Sende deinen Pubkey an deinen Rate Limited Wallet Administrator:"
 
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:48
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:70
 msgid "Show Advanced Options"
 msgstr "Erweiterte Optionen anzeigen"
 
@@ -1778,6 +1803,10 @@ msgstr ""
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
 
+#: src/components/pool/PoolInfo.tsx:41
+msgid "Target Puzzle Hash"
+msgstr ""
+
 #: src/components/plot/add/PlotAddChooseSize.tsx:18
 #~ msgid "Temporary files are created during the plotting process which exceeds the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 #~ msgstr ""
@@ -1807,7 +1836,7 @@ msgstr "Die Node ist nicht synchronisiert"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Der Node wird synchronisiert, d.h. er lädt Blöcke von anderen Nodes herunter, um den neuesten Block in der Kette zu erreichen"
 
-#: src/components/pool/PoolDetails.tsx:29
+#: src/hooks/usePoolInfo.ts:20
 msgid "The pool URL speciefied is not valid. {poolUrl}"
 msgstr ""
 
@@ -2016,6 +2045,10 @@ msgstr "Benutzer Pubkey"
 msgid "VDF Sub Slot Iterations"
 msgstr "VDF Sub Slot Iterationen"
 
+#: src/components/group/add/GroupAddCreate.tsx:117
+msgid "Verify Pool Details"
+msgstr ""
+
 #: src/electron/main.tsx:296
 msgid "View"
 msgstr "Ansicht"
@@ -2053,7 +2086,7 @@ msgstr "Warten auf Synchronisation"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/group/add/GroupAdd.tsx:72
+#: src/components/group/add/GroupAdd.tsx:95
 msgid "Waiting on transaction to hit the memory pool..."
 msgstr ""
 
@@ -2103,7 +2136,7 @@ msgstr "Wallets"
 #~ msgid "Want to Join a Pool? Create a Group"
 #~ msgstr ""
 
-#: src/components/group/add/GroupAddCreate.tsx:44
+#: src/components/group/add/GroupAddCreate.tsx:49
 msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
@@ -2149,7 +2182,7 @@ msgstr "Ohne Gebühren"
 msgid "Yes"
 msgstr "Ja"
 
-#: src/hooks/useGroupClaimRewards.tsx:32
+#: src/hooks/useGroupClaimRewards.tsx:34
 #: src/hooks/usePoolJoin.tsx:34
 msgid "You are not pooling"
 msgstr ""
@@ -2186,7 +2219,7 @@ msgstr "Du hast {0}% des Speichers im Netzwerk. Das Farmen eines Blocks wird dah
 #~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
 #~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
 
-#: src/hooks/useGroupClaimRewards.tsx:44
+#: src/hooks/useGroupClaimRewards.tsx:46
 msgid "You will recieve <0/> to {address}"
 msgstr ""
 
