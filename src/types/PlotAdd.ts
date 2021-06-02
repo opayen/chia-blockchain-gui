@@ -16,6 +16,7 @@ type PlotAdd = {
   disableBitfieldPlotting?: boolean;
   excludeFinalDir?: boolean;
   overrideK?: boolean;
+  c: string;
 };
 
 export default PlotAdd;
